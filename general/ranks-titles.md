@@ -56,3 +56,16 @@ Level 42 (4000 XP/4150 XP)
 
 ### In-Game
 Depends on the gamemode, will be determined later.
+
+## Ranks (aka Levels)
+Ranks and the respective amount of XP needed to reach them is calculated through an exponantial term (That way, players have to gather more XP for the next rank). Rewards aren't pre-definied but rather there is a list of possible rewards for each uprank, which is combined with a multiplier to ensure higher rewards in higher levels. However, special ranks might have special rewards, these should be defined here:
+|Rank|Reward|
+|---|---|
+|42|_To be determined_|
+|1337|_To be determined_|
+
+## Titles
+Titles should be defined here:
+|Title|Color (MC Color Code without prefix)|
+|---|---|
+|...|...|
