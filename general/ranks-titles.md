@@ -35,9 +35,9 @@ Level 42 (4000 XP/4150 XP)
 ##### Legend
 |Variable|Color|Content|
 |---|---|---|
-|`NAME`|See above|See above|
+|`NAME`|_See above_|_See above_|
 |`TITLE`|Varies by title|Title of the player|
-|`LEVEL`|See above|See above|
+|`LEVEL`|_See above_|_See above_|
 |`XP`|Green|XP of the player|
 |`XP TO NEXT LEVEL`|Gray|XP needed for the next level|
 
@@ -52,7 +52,7 @@ Level 42 (4000 XP/4150 XP)
 ##### Legend
 |Variable|Color|Content|
 |---|---|---|
-|`NAME`|See above|See above|
+|`NAME`|_See above_|_See above_|
 
 ### In-Game
 Depends on the gamemode, will be determined later.
