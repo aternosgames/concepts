@@ -4,7 +4,7 @@
 
 ## General
 
-* [Ranks/Titles](general/ranks-titles.md)
+* [Chat/Levels/Titles](general/ranks-titles.md)
 * [Matchmaking](general/matchmaking.md)
 * [Moderation](general/moderation.md)
 
