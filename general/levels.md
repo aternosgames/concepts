@@ -1,114 +1,22 @@
 # Levels
 
-Levels and the respective amount of XP needed to reach them is calculated through an exponantial term \(That way, players have to gather more XP for the next level\). Rewards aren't pre-defined but rather there is a list of possible rewards for each uprank, which is combined with a multiplier to ensure higher rewards in higher levels. However, special levels might have special rewards, these should be defined here:
+## Levels
+
+Levels and the respective amount of XP needed to reach them is calculated through different terms depending on the level \(That way, players have to gather more XP for the next level\). Rewards aren't pre-defined but rather there is a list of possible rewards for each uprank, which is combined with a multiplier to ensure higher rewards in higher levels. However, special levels might have special rewards, these should be defined here:
 
 | Level | Reward |
 | :--- | :--- |
 | 42 | _To be determined_ |
 | 1337 | _To be determined_ |
 
+## Value calculations
 
-# Demo Values
-|Level|Total XP needed|XP needed from previous level|
-|---|---|---|
-|1|51|-|
-|2|105|+54|
-|3|161|+56|
-|4|221|+60|
-|5|284|+63|
-|6|349|+65|
-|7|419|+70|
-|8|491|+72|
-|9|568|+77|
-|10|648|+80|
-|11|733|+85|
-|12|822|+89|
-|13|915|+93|
-|14|1013|+98|
-|15|1117|+104|
-|16|1225|+108|
-|17|1339|+114|
-|18|1459|+120|
-|19|1585|+126|
-|20|1718|+133|
-|21|1857|+139|
-|22|2004|+147|
-|23|2158|+154|
-|24|2320|+162|
-|25|2490|+170|
-|26|2669|+179|
-|27|2857|+188|
-|28|3055|+198|
-|29|3263|+208|
-|30|3481|+218|
-|31|3711|+230|
-|32|3953|+242|
-|33|4206|+253|
-|34|4473|+267|
-|35|4754|+281|
-|36|5049|+295|
-|37|5359|+310|
-|38|5685|+326|
-|39|6028|+343|
-|40|6389|+361|
-|41|6767|+378|
-|42|7166|+399|
-|43|7584|+418|
-|44|8025|+441|
-|45|8487|+462|
-|46|8974|+487|
-|47|9485|+511|
-|48|10023|+538|
-|49|10588|+565|
-|50|11182|+594|
-|51|11807|+625|
-|52|12463|+656|
-|53|13154|+691|
-|54|13879|+725|
-|55|14642|+763|
-|56|15444|+802|
-|57|16287|+843|
-|58|17174|+887|
-|59|18105|+931|
-|60|19085|+980|
-|61|20115|+1030|
-|62|21197|+1082|
-|63|22336|+1139|
-|64|23532|+1196|
-|65|24790|+1258|
-|66|26112|+1322|
-|67|27502|+1390|
-|68|28964|+1462|
-|69|30500|+1536|
-|70|32115|+1615|
-|71|33813|+1698|
-|72|35598|+1785|
-|73|37474|+1876|
-|74|39447|+1973|
-|75|41521|+2074|
-|76|43701|+2180|
-|77|45993|+2292|
-|78|48402|+2409|
-|79|50935|+2533|
-|80|53598|+2663|
-|81|56397|+2799|
-|82|59340|+2943|
-|83|62434|+3094|
-|84|65686|+3252|
-|85|69105|+3419|
-|86|72699|+3594|
-|87|76478|+3779|
-|88|80450|+3972|
-|89|84626|+4176|
-|90|89017|+4391|
-|91|93632|+4615|
-|92|98484|+4852|
-|93|103584|+5100|
-|94|108947|+5363|
-|95|114584|+5637|
-|96|120510|+5926|
-|97|126740|+6230|
-|98|133289|+6549|
-|99|140174|+6885|
-|100|147413|+7239|
+| Level | Calculation/Value |
+| :--- | :--- |
+| 1 | +100XP |
+| 1-50 | Exponential function up to +1000XP |
+| 50 | +1000XP |
+| 51-1000 | Linear function: +10XP/level \[1000XP + \(Level - 50\) \* 10XP\] |
+| 1000 | +10500XP |
+| 1001+ | Exponential function starting at +10500XP / ability to go back to level 1 for reward |
 

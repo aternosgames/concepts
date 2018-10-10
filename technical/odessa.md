@@ -1,5 +1,6 @@
-# Odessa (game framwork)
+# Odessa \(Game framework\)
 
-*Customizable, multi-version and easy-to-use game framework built on Glowstone.*
+_Customizable, multi-version and easy-to-use game framework built on Glowstone._
 
-**[Odessa Repository](https://github.com/aternosgames/odessa)**
+[**Odessa Repository**](https://github.com/aternosgames/odessa)
+
