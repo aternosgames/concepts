@@ -16,7 +16,7 @@
 
 ## Technical
 
-* [Database](technical/database.md)
+* [Orbit (Database)](technical/orbit.md)
 * [Odessa \(Game framework\)](technical/odessa.md)
 * [Playground \(Utilities\)](technical/playground.md)
 
