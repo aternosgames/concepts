@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Effort: 10 minutes",
+        "color": "118572"
+    },
+    {
+        "name": "Effort: One hour",
+        "color": "118572"
+    },
+    {
+        "name": "Effort: Several days",
+        "color": "118572"
+    },
+    {
+        "name": "Effort: Several hours",
+        "color": "118572"
+    },
+    {
+        "name": "Effort: Several weeks",
+        "color": "118572"
+    },
+    {
+        "name": "Flag: Good first issue",
+        "color": "0c396a"
+    },
+    {
+        "name": "Flag: Help wanted",
+        "color": "0c396a"
+    },
+    {
+        "name": "Priority: Critical",
+        "color": "D53C4E"
+    },
+    {
+        "name": "Priority: Low",
+        "color": "E4E570"
+    },
+    {
+        "name": "Priority: Major",
+        "color": "E4E570"
+    },
+    {
+        "name": "Priority: Minor",
+        "color": "E4E570"
+    },
+    {
+        "name": "Status: Confirmed",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Denied",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Done",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Duplicate",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: In progress",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: In review",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Invalid",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Needs changes",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: New",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Planned",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Rejected",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Reviewed",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: Waiting for review",
+        "color": "2d3943"
+    },
+    {
+        "name": "Status: WontFix",
+        "color": "2d3943"
+    },
+    {
+        "name": "Type: Bug",
+        "color": "1269D3"
+    },
+    {
+        "name": "Type: Enhancement",
+        "color": "1269D3"
+    },
+    {
+        "name": "Type: Feature request",
+        "color": "1269D3"
+    }
+]
