@@ -1,0 +1,1 @@
+Here you'll find a collection of basic issue and pull request templates used in the repositories of Aternos Games.
