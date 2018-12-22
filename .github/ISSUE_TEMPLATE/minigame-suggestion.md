@@ -17,7 +17,7 @@ about: Suggest a minigame which should be added as a concept
 *Add any images or videos to explain the basic concept further*
 
 ### Maps
-*How big show the maps be, what should be the general theme, what are important spots to consider?*
+*How big should the maps be, what should be the general theme, what are important spots to consider?*
 
 ### Additional information
 *Anything else to add?*
