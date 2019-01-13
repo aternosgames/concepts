@@ -13,7 +13,7 @@ collecting exceptions that occurred *somewhere*, multiple different webpanels fo
 goes on.
 
 The previously named products/solutions are great and all but actually do not solve the problem the Aternos Games project 
-has: A server orchestration software that manages a lot of Minecraft servers **and** players with low resource costs, 
+has: A server orchestration software that manages a lot of Minecraft servers **and** players with low costs of resources, 
 high-scalability and state of the art technology and practices. 
 
 Now, there are actually some projects that atleast _try_ to solve the named problem. Whether or not they are successful in
@@ -33,12 +33,14 @@ Minecraft servers/Minecraft server clusters by automating a lot of processes. Su
 * Start Minecraft servers, either just one or multiple at once
 * Restart/Stop Minecraft servers on emergency cases (deadlocks, time-outs, crashed and idling servers)
 * Restart/Stop Minecraft servers after a fixed amount of time
-* Limit and manage resources dedicated to Minecraft servers
+* Limit and manage resources dedicated to a Minecraft servers
 
 ### The daemon
 The daemon is designed rather simple compared to all other components of _Impulse_. Short definition of 'Daemon':<br>
 > [...] a background process that handles requests for services such as print spooling and file transfers, and is dormant
 when not required.
 
-In this case our daemon needs to do a lot more rather than _print spooling_ and _file transfers_. Its job is to:
-* Organize and keep hold of a template that represents a Minecraft server which is configured for a task, gamemode or else
+In this case our daemon needs to do a lot more than _print spooling_ and _file transfers_. The daemon's job is to:
+* Organize and keep hold of templates where a template represents a Minecraft server which was configured for a task, gamemode or else
+* Monitor running Minecraft servers, their resources consumption and whether or not a Minecraft server is required to stay online
+* Safely deploy, configure and delete Minecraft servers without doing a lot of write/read ops
