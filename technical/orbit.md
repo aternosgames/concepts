@@ -32,6 +32,21 @@ Orbit could be written in [NodeJS](https://nodejs.org/en/).
 ## Data
 
 * User/Player
+  * User Rank
+  * User Preferred Language
+  * User Currency (Such as gold to buy kits won in games, etc)
+  * User Punishments
+    * Past Punishments
+    * Active Punishments
+  * Personal Statistics  
+    * Player Game Wins (stored/received by game or total)
+    * Player Kills (stored/received by game or total)
+    * Player Deaths (stored/received by game or total)
+  * User Game Data Storage
+    * Owned Kits
+  * User Level
 * Chat (Friends/Party)
 * Statistics
+  * Storage for overall network statistics
+    * Amount of played games...etc.
 * ...
