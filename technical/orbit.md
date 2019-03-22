@@ -39,9 +39,9 @@ Orbit could be written in [NodeJS](https://nodejs.org/en/).
     * Past Punishments
     * Active Punishments
   * Personal Statistics  
-    * Player Game Wins (stored/recieved by game or total)
-    * Player Kills (stored/recieved by game or total)
-    * Player Deaths (stored/recieved by game or total)
+    * Player Game Wins (stored/received by game or total)
+    * Player Kills (stored/received by game or total)
+    * Player Deaths (stored/received by game or total)
   * User Game Data Storage
     * Owned Kits
   * User Level
