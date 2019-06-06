@@ -18,7 +18,7 @@ Scaenicus is an API for user storage, modification, and retrieval. Scaenicus ope
 
 ## Features
 
-* Storage, retreval, and modification apis for:
+* Storage, retrieval, and modification apis for:
   * User Ranks
   * User Permissions
   * User Tokens
