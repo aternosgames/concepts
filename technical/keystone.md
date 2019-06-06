@@ -1,5 +1,5 @@
 ---
-description: 'The core network element.'
+description: 'The core network element allowing database and inter-component communication and standardization.'
 ---
 
 # KeyStone \(Core\)
@@ -19,5 +19,5 @@ Keystone is the centerpiece "keystone" of the network. It has three components: 
 ## Features
 
 * Database APIs which allow communication with the database through keystone. 
-* Standard component enums such as Rank that are shared across multiple implementations
+* Standard component enums such as Rank and UserType, that are shared across multiple implementations
 * ...
